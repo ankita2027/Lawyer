@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+/* navbar css */
+.container1{
+    background-color: black;
+    height: 100vh;
+    width: 99vw;
+}
+.row1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.btn-div button{
+    padding: 1rem 2rem;
+    color: whitesmoke;
+    background-color: black;
+    border-color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu-bar{
+    background-color: black;
+}
+.menu-bar ul{
+    list-style: none;
+    /* display: flex; */
+}
+.icon{
+    background-color: gray;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.menu-bar a{
+    position: relative;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.menu-bar a:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -20px;
+    transition: 0.3s;
+
+}
+.menu-bar a:hover:after{
+    width: 100%;
+}
+.menu-bar ul li :hover{
+    color: orange;
+}
+/* .menu-bar ul li :active{
+    color: green;
+} */
+/* .menu-bar ul li :visited{
+    color: red;
+} */
+.icon :hover{
+    color: orange;
+}
+/* navbar css */
+
+
+.row2{
+    background-color: rgba(128, 128, 128, 0.144);
+    height: 80vh;
+    
+}
+  .right img{
+    height: 80vh;
+    width: 100%;
+} 
+.left button{
+    width: 150px;
+    padding: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.144);
+    border-color: orange;
+    color: orange;
+} 
+
